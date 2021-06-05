@@ -1,5 +1,5 @@
 # unrolling_meets_data_driven_regularization
-Contains python scripts for adversarially learning an iteratively unrolled reconstruction together with a data-driven regularizer for inverse problems. 
+Contains python scripts for adversarially learning an iteratively unrolled reconstruction together with a data-driven regularizer for inverse problems (X-ray CT, in particular). 
 
 * To run the codes, you need a Ubuntu 18.04/20.04 system with miniconda installed on it. The training and evaluation scripts were executed on an NVIDIA Quadro RTX 6000 GPU with 24 GB of memory. 
 
