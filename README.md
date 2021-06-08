@@ -1,8 +1,18 @@
 # unrolling_meets_data_driven_regularization
-Contains python scripts for adversarially learning an iteratively unrolled reconstruction together with a data-driven regularizer for inverse problems (X-ray CT, in particular). 
+Contains python scripts for adversarially learning an iteratively unrolled reconstruction together with a data-driven regularizer for inverse problems (X-ray CT, in particular). For more details, see our paper: https://arxiv.org/abs/2106.03538.
 
 * To run the codes, you need a Ubuntu 18.04/20.04 system with miniconda installed on it. The training and evaluation scripts were executed on an NVIDIA Quadro RTX 6000 GPU with 24 GB of memory. 
-
+* If you use the scripts in your work, consider citing our paper:
+```
+@misc{mukherjee2021endtoend,
+      title={End-to-end reconstruction meets data-driven regularization for inverse problems}, 
+      author={Subhadip Mukherjee and Marcello Carioni and Ozan Öktem and Carola-Bibiane Schönlieb},
+      year={2021},
+      eprint={2106.03538},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
 # Instructions to run the codes: 
 * The phantoms used in our CT experiments are available (as `.npy` files) here: https://drive.google.com/drive/folders/1SHN-yti3MgLmmW_l0agZRzMVtp0kx6dD?usp=sharing. Download the `.zip` file containing the phantoms, unzip, and put inside the cloned directory where the scripts are kept.
 * Download the folder containing some pre-trained models and unzip it: https://drive.google.com/drive/folders/176uhC1WB-ooImD9cWJMqW_KRubW_kw06?usp=sharing.
